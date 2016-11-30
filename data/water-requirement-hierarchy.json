@@ -1,0 +1,60 @@
+[{
+  "name": "Water requirements",
+  "parent": "null",
+  "children": [
+    {
+      "name": "Short term",
+      "parent": "Water requirements",
+      "children": [
+        {
+          "name": "Drinking, 10L",
+          "parent": "Short term"
+        },
+        {
+          "name": "Cooking, 20L",
+          "parent": "Short term"
+        }
+      ]
+    },
+    {
+      "name": "Medium term",
+      "parent": "Water requirements",
+      "children": [
+        {
+          "name": "Personal washing, 30L",
+          "parent": "Medium term"
+        },
+        {
+          "name": "Washing clothes, 40L",
+          "parent": "Medium term"
+        },
+        {
+          "name": "Cleaning home, 50L",
+          "parent": "Medium term"
+        },
+        {
+          "name": "Growing food (domestic use), 60L",
+          "parent": "Medium term"
+        },
+        {
+          "name": "Waste disposal (sanitation), 70L",
+          "parent": "Medium term"
+        }
+       ]
+    },
+    {
+      "name": "Long term",
+      "parent": "Water requirements",
+      "children": [
+        {
+          "name": "Business (crops production livestock)",
+          "parent": "Long term"
+        },
+        {
+          "name": "Gardens recreation",
+          "parent": "Long term"
+        }
+       ]
+    }
+  ]
+}]

@@ -1,0 +1,98 @@
+WHO_region,Code,Country,Improved_Sanitation_2015,Improved_Water_2015,UN_Population
+African,DZA,Algeria,87.6,83.6,38934334
+African,AGO,Angola,51.6,49,24227524
+African,BEN,Benin,19.7,77.9,10598482
+African,BWA,Botswana,63.4,96.2,2219937
+African,BFA,Burkina Faso,19.7,82.3,17589198
+African,BDI,Burundi,48,75.9,10816860
+African,CPV,Cabo Verde,72.2,91.7,513906
+African,CMR,Cameroon,45.8,75.6,22773014
+African,CAF,Central African Republic,21.8,68.5,4804316
+African,TCD,Chad,12.1,50.8,13587053
+African,COM,Comoros,35.8,90.1,769991
+African,COG,Congo,15,76.5,4504962
+African,COD,Democratic Republic of the Congo,28.7,52.4,74877030
+African,GNQ,Equatorial Guinea,74.5,47.9,820885
+African,ERI,Eritrea,15.7,57.8,5110444
+African,ETH,Ethiopia,28,57.3,96958732
+African,GAB,Gabon,41.9,93.2,1687673
+African,GMB,Gambia,58.9,90.2,1928201
+African,GHA,Ghana,14.9,88.7,26786598
+African,GIN,Guinea,20.1,76.8,12275527
+African,GNB,Guinea-Bissau,20.8,79.3,1800513
+African,KEN,Kenya,30.1,63.2,44863583
+African,LBR,Liberia,16.9,75.6,4396554
+African,MDG,Madagascar,12,51.5,23571713
+African,MWI,Malawi,41,90.2,16695253
+African,MLI,Mali,24.7,77,17086022
+African,MRT,Mauritania,40,57.9,3969625
+African,MOZ,Mozambique,20.5,51.1,27216276
+African,NAM,Namibia,34.4,91,2402858
+African,NER,Niger,10.9,58.2,19113728
+African,NGA,Nigeria,29,68.5,177475986
+African,RWA,Rwanda,61.6,76.1,11341544
+African,STP,Sao Tome and Principe,34.7,97.1,186342
+African,SEN,Senegal,47.6,78.5,14672557
+African,SLE,Sierra Leone,13.3,62.6,6315627
+African,ZAF,South Africa,66.4,93.2,53969054
+African,SSD,South Sudan,6.7,58.7,11911184
+African,SWZ,Swaziland,57.5,74.1,1269112
+African,TGO,Togo,11.6,63.1,7115163
+African,UGA,Uganda,19.1,79,37782971
+African,TZA,United Republic of Tanzania,15.6,55.6,51822621
+African,ZMB,Zambia,43.9,65.4,15721343
+African,ZWE,Zimbabwe,36.8,76.9,15245855
+Eastern Mediterranean,AFG,Afghanistan,31.9,55.3,31627506
+Eastern Mediterranean,DJI,Djibouti,47.4,90,876174
+Eastern Mediterranean,IRN,Iran,90,96.2,78143644
+Eastern Mediterranean,PAK,Pakistan,63.5,91.4,185044286
+Eastern Mediterranean,SAU,Saudi Arabia,100,97,30886545
+Eastern Mediterranean,SOM,Somalia,NA,NA,10517569
+Eastern Mediterranean,SDN,Sudan,NA,NA,39350274
+Eastern Mediterranean,YEM,Yemen,NA,NA,26183676
+European,AZE,Azerbaijan,89.3,87,9629779
+European,GEO,Georgia,86.3,100,4034774
+European,KGZ,Kyrgyzstan,93.3,90,5843617
+European,TJK,Tajikistan,95,73.8,8295840
+European,TUR,Turkey,94.9,100,77523788
+European,UZB,Uzbekistan,100,NA,29469913
+Region of the Americas,ARG,Argentina,96.4,99.1,42980026
+Region of the Americas,BLZ,Belize,90.5,99.5,351706
+Region of the Americas,BOL,Bolivia,50.3,90,10561887
+Region of the Americas,BRA,Brazil,82.8,98.1,206077898
+Region of the Americas,COL,Colombia,81.1,91.4,47791393
+Region of the Americas,CRI,Costa Rica,94.5,97.8,4757606
+Region of the Americas,DMA,Dominican Republic,84,84.7,10405943
+Region of the Americas,ECU,Ecuador,84.7,86.9,15902916
+Region of the Americas,SLV,El Salvador,75,93.8,6107706
+Region of the Americas,GTM,Guatemala,63.9,92.8,16015494
+Region of the Americas,GUY,Guyana,83.7,98.3,763893
+Region of the Americas,HTI,Haiti,27.6,57.7,10572029
+Region of the Americas,HND,Honduras,82.6,91.2,7961680
+Region of the Americas,MEX,Mexico,85.2,96.1,125385833
+Region of the Americas,NIC,Nicaragua,67.9,87,6013913
+Region of the Americas,PAN,Panama,75,94.7,3867535
+Region of the Americas,PRY,Paraguay,88.6,98,6552518
+Region of the Americas,PER,Peru,76.2,86.7,30973148
+Region of the Americas,SUR,Suriname,79.2,94.8,538248
+Region of the Americas,VEN,Venezuela,94.4,93.1,30693827
+South-East Asia,BGD,Bangladesh,60.6,86.9,159077513
+South-East Asia,BTN,Bhutan,50.4,100,765008
+South-East Asia,PRK,Democratic People's Republic of Korea,81.9,99.7,25026772
+South-East Asia,IND,India,39.6,94.1,1295291543
+South-East Asia,IDN,Indonesia,60.8,87.4,254454778
+South-East Asia,MMR,Myanmar,79.6,80.6,53437159
+South-East Asia,NPL,Nepal,45.8,91.6,28174724
+South-East Asia,LKA,Sri Lanka,95.1,95.6,20618991
+South-East Asia,THA,Thailand,93,97.8,67725979
+South-East Asia,TLS,Timor-Leste,40.6,71.9,1157360
+Western Pacific,KHM,Cambodia,42.4,75.5,15328136
+Western Pacific,CHN,China,76.5,95.5,1377240453
+Western Pacific,LAO,Lao,70.9,75.7,6689300
+Western Pacific,MYS,Malaysia,96,98.2,29901997
+Western Pacific,PNG,Papua New Guinea,18.9,40,7463577
+Western Pacific,PHL,Philippines,73.9,91.8,99138690
+Western Pacific,KOR,Republic of Korea,100,NA,50074401
+Western Pacific,SLB,Solomon Islands,29.8,80.8,572171
+Western Pacific,VUT,Vanuatu,57.9,94.5,258883
+Western Pacific,VNM,Viet Nam,78,97.6,92423338

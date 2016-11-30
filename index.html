@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CS171 - HW 6</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">-->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="coverpage">
+	Let's talk about Water
+
+</div>
+<div id="facts">
+	<h2><span class="sh_keyword">Facts</span></h2>
+	<ul style="list-style-type: circle;">
+		<li style="text-align: left;"><span class="sh_keyword"><b>Contaminated Water</b>: At least 1.8 billion people globally use a source of drinking water that is fecally contaminated.</span></li>
+		<li style="text-align: left;"><span class="sh_keyword"><b>Water Scarcity</b>: Water scarcity affects more than 40% of the global population and is projected to rise.</span></li>
+		<li style="text-align: left;"><span class="sh_keyword"><b>Basic Sanitation</b>: 2.4 billion people lack access to basic sanitation services, such as toilets or latrines.</span></li>
+		<li style="text-align: left;"><span class="sh_keyword"><b>Water Purification</b>: More than 80% of wastewater resulting from human activities is discharged into rivers or sea without any pollution removal.<br /></span></li>
+	</ul>
+
+
+</div>
+
+<div class="container">
+	<h2> The Situation <b>Worldwide</b></h2>
+	<div>
+		<br/>
+	</div>
+	<form class="form-inline">
+		<div class="form-group">
+			<label for="data-type2">Sort by...</label>
+			<select class="form-control input-sm" id="data-type2">
+				<option value="Code"> Region</option>
+				<option value="UN_Population"> Population</option>
+				<option value="Improved_Sanitation_2015"> Improved Sanitation</option>
+				<option value="Improved_Water_2015"> Improved Water</option>
+			</select>
+			<!--<button type="button" class="btn btn-default input-sm" id="btn-update">Africa</button>-->
+			<label for="data-type3">Highlight...</label>
+			<select class="form-control input-sm" id="data-type3">
+				<option value="none"> None</option>
+				<option value="African"> Africa</option>
+				<option value="European"> Europe</option>
+				<option value="South-East Asia"> South-East Asia</option>
+				<!--<option value="Improved_Sanitation_2015"> Improved Sanitation</option>
+				<option value="Improved_Water_2015"> Improved Water</option>-->
+			</select>
+		</div>
+	</form>
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12" id="chart-area"></div>
+		<div class="col-lg-12 col-md-12 col-sm-12" id="chart-info">
+			<div>
+				<strong>Clean Water and Sanitation</strong>
+			</div>
+			<p>
+				Clean, accessible water for all is an essential part of the world we want to live in. There is sufficient fresh water on the planet to achieve this. But
+				due to bad economics or poor infrastructure, every year millions of people, most of them children, die from diseases associated with inadequate water
+				supply, sanitation and hygiene. Water scarcity, poor water quality and inadequate sanitation negatively impact food security, livelihood choices and
+				educational opportunities for poor families across the world. Drought afflicts some of the world’s poorest countries, worsening hunger and malnutrition.
+			</p>
+
+		</div>
+	</div>
+</div>
+
+<div class="africaIntro">
+
+	What about Africa?
+
+</div>
+
+
+<div class="container">
+	<h2> The Situation in <b>Africa</b></h2>
+	<div>
+		<br/>
+	</div>
+	<form class="form-inline">
+		<div class="form-group">
+			<label for="data-type"></label>
+			<select class="form-control input-sm" id="data-type">
+				<option value="UN_Population">Population</option>
+				<option value="Improved_Sanitation_2015">Improved Sanitation</option>
+				<option value="Improved_Water_2015">Improved Water</option>
+			</select>
+		</div>
+	</form>
+
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-12" id="map-area"></div>
+		<div class="col-lg-6 col-md-6 col-sm-12" id="map-info">
+			<div>
+				<strong>Population growth and rural-urban migration</strong>
+			</div>
+			<p>
+				Africa’s rising population is driving demand for water and accelerating the degradation of water resources in many countries on the continent. Among
+				developing regions, Sub-Saharan Africa is estimated to have the highest prevalence of urban slums and it is expected to double to around 400 million by
+				2020. Despite the efforts of some Sub-Saharan African countries and cities to expand basic services and improve urban housing conditions. Rapid and
+				unplanned urban growth has increased the number of settlements on unstable, flood-prone, and high-risk land where phenomena such as landslides, rains, and
+				earthquakes have devastating consequences.
+			</p>
+
+			<div>
+				<br/>
+			</div>
+			<div>
+				<strong>Economic development and poverty</strong>
+			</div>
+			<p>
+				Sub-Saharan Africa is the world’s poorest and least developed region, with half its population living on less than a dollar a day. About two-thirds of its
+				countries rank among the lowest in the Human Development Index. Even when opportunities exist to address outstanding water issues, deep and widespread
+				poverty across the African region constrains the ability of many cities and communities to provide proper water and sanitation services, sufficient water
+				for economic activities and to prevent water quality from deteriorating.
+			</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="africaIntro2">
+
+	What are the Initiatives that try to tackle the lack of service in Developing Countries?
+
+</div>
+
+<div class="container" id="initiatives">
+
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-12" >
+			<h4> Investing</h4>
+			<div>
+				<strong>What would it cost to correct the problem?</strong>
+			</div>
+			<p>
+				A study by the World Bank Group, UNICEF and the World Health Organization estimates that
+				extending basic water and sanitation services to the unserved would cost USD 28.4 billion
+				per year from 2015 to 2030, or 0.10% of the global product of the 140 countries included in
+				its study.
+			</p>
+
+			<div>
+				<br/>
+			</div>
+			<div>
+				<strong>What would it cost if we don’t correct the problem?</strong>
+			</div>
+			<p>
+				The costs are huge – both for people and for the economy. Worldwide, more than 2 million
+				people die every year from diarrhoeal diseases. Poor hygiene and unsafe water are
+				responsible for nearly 90% of these deaths and mostly affect children. The economic impact
+				of not investing in water and sanitation costs an enormous 4.3% of sub-Saharan African GDP.
+				The World Bank estimates that 6.4% of India’s GDP is lost due to adverse economic impacts
+				and costs of inadequate sanitation. Without better infrastructure and management, many
+				millions of people will continue to die every year and there will be further losses in
+				biodiversity and ecosystem resilience, undermining prosperity and efforts towards a more
+				sustainable future.
+			</p>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12" >
+			<h4> UNICEF Commitment</h4>
+
+			<p>
+				UNICEF’s water, sanitation and hygiene (WASH) team works in over 100 countries worldwide
+				to improve water and sanitation services, as well as basic hygiene practices. Over the last 15
+				years, UNICEF has led a global effort to improve water, sanitation and hygiene conditions for
+				millions of people worldwide. In 2010, a full five years ahead of schedule, the target for
+				water within Millennium Development Goals was met Today, 91% of the world’s population
+				has access to clean drinking water and 68% use improved sanitation (a facility that separates
+				human waste from human contact).
+				However, development efforts made during the Millennium Development Goal era failed to
+				reach millions of children in poor and rural communities. As a result, massive inequalities
+				exist between those with access to clean water and basic toilets, and those without. In the
+				pursuit of the new Sustainable Development Goals and fulfilling the rights of children,
+				UNICEF works to reach the most vulnerable and disadvantaged children.
+			</p>
+
+			<div>
+				<br/>
+			</div>
+			<div>
+				<strong>Beneficiaries from direct UNICEF WASH support</strong>
+			</div>
+			<p>
+				In 2015, UNICEF helped more than 39 million people secure access to drinking water and
+				more than 18 million people secure access to sanitation (see Table 2). This is an increase of
+				20 per cent since 2014 and the second highest number of total direct UNICEF beneficiaries in
+				the past 10 years. The greatest increase was in emergency water beneficiaries, due to a
+				growing crisis in and around the Syrian Arab Republic; in response to natural disasters (such
+				as the earthquake in Nepal); and for needs related to ongoing complex emergencies in the
+				Democratic Republic of the Congo, the Sudan and other countries. UNICEF reacts quickly in
+				times of crisis to ensure that affected populations have the knowledge, supplies and facilities
+				for hand washing with soap, which is critical in preventing the spread of disease. These
+				efforts reached more than 14 million people in 2015.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="africaIntro">
+
+	What can We do?
+	<p id="wedo">
+		<br />
+		Civil society organizations should work to keep governments accountable, invest in water
+		research and development, and promote the inclusion of women, youth and indigenous
+		communities in water resources governance.
+		Generating awareness of these roles and turning them into action will lead to win-win results
+		and increased sustainability and integrity for both human and ecological systems.
+
+	</p>
+</div>
+
+<div id="sources">
+	<h2><span class="sh_keyword">Sources</span></h2>
+	<ul style="list-style-type: circle;">
+		<li><a href="http://www.un.org/sustainabledevelopment/development-agenda/">http://www.un.org/sustainabledevelopment/development-agenda/</a></li>
+		<li><a href="http://files.unicef.org/publications/files/Progress_on_Sanitation_and_Drinking_Water_2015_Update_.pdf">http://files.unicef.org/publications/files/Progress_on_Sanitation_and_Drinking_Water_2015_Update_.pdf</a></li>
+		<li><a href="http://www.un.org/sustainabledevelopment/wp-content/uploads/2016/06/Why-it-Matters_Sanitation_1p.pdf">http://www.un.org/sustainabledevelopment/wp-content/uploads/2016/06/Why-it-Matters_Sanitation_1p.pdf</a></li>
+		<li><a href="https://thewaterproject.org/">https://thewaterproject.org/</a></li>
+		<li><a href="http://www.unicef.org/publicpartnerships/files/2015ARR_WASH.pdf">http://www.unicef.org/publicpartnerships/files/2015ARR_WASH.pdf</a></li>
+		<li><a href="http://www.who.int/water_sanitation_health/publications/2011/tn9_how_much_water_en.pdf">http://www.who.int/water_sanitation_health/publications/2011/tn9_how_much_water_en.pdf</a></li>
+	</ul>
+</div>
+
+<div id="credits">
+	<b>Enol Vallina</b> <br />
+	--------------------------<br />
+	CS171 [10.28.16]<br />
+
+
+
+</div>
+
+
+	<!-- Load JS libraries -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/queue.min.js"></script>
+	<script src="js/topojson.js"></script>
+	<script src="js/d3.min.js"></script>
+	<script src="js/d3.tip.js"></script>
+
+	<!-- Choropleth and second visualization -->
+	<script src="js/vis-choropleth.js"></script>
+	<script src="js/vis-second.js"></script>
+	<script src="js/textRef.js"></script>
+	
+</body>
+</html>

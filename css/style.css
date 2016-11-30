@@ -1,0 +1,229 @@
+/* YOUR CSS STYLES */
+
+/* WEB STYLES */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(70, 70, 70);
+    /*background: rgb(140,145,30);*/
+}
+
+h2 {
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+
+p{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+
+    padding-left: 80px;
+}
+
+strong{
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 25px;
+
+    padding-left: 80px;
+}
+
+#coverpage{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255,255,255);
+
+    background-image: url("img/01_Cover.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25%;
+    padding-top: 25%;
+}
+
+#facts{
+    font-size: 20px;
+    font-weight: 200;
+    color:rgb(255,255,255);
+    background-color: rgb(70,70,70);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    line-height: 80px;
+
+}
+
+.africaIntro{
+     font-size: 50px;
+     font-weight: bold;
+     text-align: center;
+     color:rgb(255,255,255);
+     background-color: rgb(70,70,70);
+
+     padding-bottom: 25%;
+     padding-top: 25%;
+
+     padding-left: 7%;
+     padding-right: 7%;
+     /*
+     line-height: 80px;
+     */
+ }
+
+.africaIntro{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(255,255,255);
+    background-color: rgb(70,70,70);
+
+
+    padding-bottom: 25%;
+    padding-top: 25%;
+
+    padding-left: 7%;
+    padding-right: 7%;
+
+}
+#credits{
+    font-size: 15px;
+    color: rgb(255,255,255);
+    font-weight: 200;
+    line-height: 25px;
+    text-align: right;
+    background-color: rgb(70,70,70);
+    padding-bottom: 1%;
+    padding-top: 1%;
+
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+
+.africaIntro2{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(255,255,255);
+    /*background-color: rgb(70,70,70);*/
+
+    background-image: url("img/01_Cover_2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25%;
+    padding-top: 25%;
+
+    padding-left: 7%;
+    padding-right: 7%;
+
+}
+
+#wedo{
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 70px;
+
+}
+
+#sources{
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+
+}
+/*CHARTS & INTERACTION*/
+h4{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 80px;
+
+}
+
+.container{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#chart-area{
+    font-size: 10px;
+    padding-bottom: 10%;
+}
+
+#btn-update {
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.d3-tip {
+    font-size: 10px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 70, 70);
+
+    /*Padding*/
+    padding-left: 4px;
+    padding-bottom: 1px;
+    padding-right: 6px;
+    padding-top: 1px;
+}
+
+.text-legend {
+    font-size: 10px;
+    font-weight: normal;
+    color: rgb(70, 70, 70);
+
+}
+
+
+
+/***************/
+/*  BAR CHART  */
+/***************/
+
+.bar {
+
+}
+#x-label{
+    font: 8px sans-serif;
+    font-weight: 900;
+
+}
+
+.axis {
+    font: 10px sans-serif;
+
+}
+
+.axis-title {
+    fill: #9C8B83;
+    font-size: 11px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #333;
+    shape-rendering: crispEdges;
+}
+
+.x-axis {
+    font-size: 12px;
+}
+
+.x-axis path {
+    display: none;
+}
+
+.x-axis line {
+    display: none;
+}
+
+.minor line {
+    stroke: #777;
+    stroke-dasharray: 2,2;
+}
